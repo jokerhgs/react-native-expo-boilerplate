@@ -32,7 +32,7 @@ To get started with this boilerplate, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-org/expo-react-native-boilerplate.git your-project
+git clone https://github.com/kierdev/react-native-expo-boilerplate.git
 cd your-project
 ```
 
