@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background: 255, 255, 255;
+  --foreground: 0, 0, 0;
+  --primary: 182, 131, 21; /* Gold in RGB */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 31, 31, 31;
+    --foreground: 255, 255, 255;
+    --primary: 0, 119, 255; /* Blue in RGB */
+  }
+}
