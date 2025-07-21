@@ -31,7 +31,7 @@ To get started with this boilerplate, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/kierdev/react-native-expo-boilerplate.git
+git clone https://github.com/jokerhgs/react-native-expo-boilerplate.git
 cd your-project
 ```
 
@@ -71,7 +71,6 @@ pnpm dev
 ## Project Structure
 
 - `tests/` — Unit tests
-
 
 - `app/` — Application-specific tests
 
