@@ -12,7 +12,6 @@ This boilerplate provides a modern, scalable starting point for building **React
 - **Zustand**: A lightweight, easy-to-use state management solution for React Native apps.
 - **NativeWind**: A utility-first styling framework for rapid, responsive designs similar to Tailwind CSS.
 - **ESLint & Prettier**: Enforces consistent code style and formatting, ensuring readability and maintainability.
-- **Husky & Lint-Staged**: Pre-commit checks to ensure high-quality code is committed to the repository.
 - **Jest**: A robust testing framework for unit and integration testing to ensure your app's functionality is thoroughly validated.
 
 ## Notes
@@ -73,7 +72,6 @@ pnpm dev
 
 - `tests/` — Unit tests
 
-- `husky/` — Git hook scripts
 
 - `app/` — Application-specific tests
 
@@ -118,8 +116,6 @@ pnpm dev
 - Code Consistency: Maintain clean, consistent code with ESLint and Prettier. Ensure adherence to coding conventions and formatting rules.
 
 - Testing: Write unit tests with Jest alongside your components and services to ensure reliability.
-
-- Commit Message Convention: Use Husky and Lint-Staged to enforce conventional commit messages, promoting clear version history.
 
 ## Casing Conventions
 
