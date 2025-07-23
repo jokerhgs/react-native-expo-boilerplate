@@ -4,12 +4,13 @@ This boilerplate provides a modern, scalable starting point for building **React
 
 ## Features
 
-- **React Native (via Expo)**: Simplifies native code management and streamlines cross-platform development.
+- **React Native (via Expo SDK 53)**: Simplifies native code management and streamlines cross-platform development with the latest stable SDK version.
 - **TypeScript**: Enforces type safety for improved developer experience (DX) and better maintainability.
 - **Expo Router**: File-based routing for simplifying navigation and reducing the complexity of routing logic.
 - **React Native Reanimated**: Enables performant, smooth animations essential for modern mobile applications.
 - **React Query (TanStack)**: Efficient data fetching, caching, and state management for server-state management.
 - **Zustand**: A lightweight, easy-to-use state management solution for React Native apps.
+- **Zod**: A TypeScript-first schema declaration and validation library for runtime data validation and type inference.
 - **NativeWind**: A utility-first styling framework for rapid, responsive designs similar to Tailwind CSS.
 - **ESLint & Prettier**: Enforces consistent code style and formatting, ensuring readability and maintainability.
 - **Jest**: A robust testing framework for unit and integration testing to ensure your app's functionality is thoroughly validated.
@@ -32,7 +33,7 @@ To get started with this boilerplate, follow these steps:
 
 ```bash
 git clone https://github.com/jokerhgs/react-native-expo-boilerplate.git
-cd your-project
+cd react-native-expo-boilerplate
 ```
 
 ### 2. Install Dependencies
@@ -65,7 +66,7 @@ STAGE=development
 Once dependencies are installed, you can start the development server:
 
 ```bash
-pnpm dev
+pnpm start
 ```
 
 ## Project Structure
