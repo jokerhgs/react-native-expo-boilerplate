@@ -3,10 +3,9 @@ import { Stack } from "expo-router";
 import * as SplashScreen from "expo-splash-screen";
 import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
-import { ThemeProvider } from "@/src/context/theme-provider";
-import "react-native-reanimated";
+import { ThemeProvider } from "../src/context/theme-provider";
 import "../global.css";
-// Prevent the splash screen from auto-hiding before asset loading is complete.
+
 SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
